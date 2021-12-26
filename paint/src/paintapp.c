@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <errno.h> // for error catch
-#include "paintlib.h"
+#include "./../lib/paintlib.h"
 
 int main(int argc, char **argv)
 {

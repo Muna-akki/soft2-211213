@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <errno.h> // for error catch
-#include "paintlib.h"
+#include "./../lib/paintlib.h"
 
 Canvas *init_canvas(int width,int height, char pen)
 {
