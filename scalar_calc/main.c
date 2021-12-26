@@ -1,11 +1,6 @@
 // 四則演算のプログラム
 #include <stdio.h>
-
-double add(double a,double b);
-double sub(double a,double b);
-double mul(double a, double b);
-double div(double a, double b);
-
+#include "calc.h"
 int main()
 {
     double a = 1.2;
@@ -18,18 +13,3 @@ int main()
     return 0;
 }
 
-double add(double a, double b){
-    return a + b;
-}
-
-double sub(double a, double b){
-    return a - b;
-}
-
-double mul(double a, double b){
-    return a * b;
-}
-
-double div(double a, double b){
-    return a / b;
-}
